@@ -9,5 +9,6 @@ namespace backend.DataRepositories
     public interface ICountriesRepository
     {
         public Task<IEnumerable<Continent>> GetAllContinentsAsync();
+        public Task<IEnumerable<Country>> GetAllCountriesFromContinentAsync(String continentCode);
     }
 }

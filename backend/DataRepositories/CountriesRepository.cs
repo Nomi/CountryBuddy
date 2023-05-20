@@ -32,5 +32,33 @@ namespace backend.DataRepositories
             var response = await _client.SendQueryAsync<ContinentCollectionDTO>(query);
             return response.Data.Continents;
         }
+
+        public async Task<IEnumerable<Country>> GetAllCountriesFromContinentAsync(String continentCode)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @"
+                        query countriesFromContinent{
+                            continent(code: "+$"\"{continentCode}\""+@") {
+                                countries {
+                                    code
+                                    name
+                                    currency
+                                    phone
+                                    continent {
+                                        code
+                                        name
+                                    }
+                                    languages {
+                                        name
+                                    }
+                                }
+                            }
+                        }"
+            };
+
+            var response = await _client.SendQueryAsync<GetCountriesFromContinentDTO>(query);
+            return response.Data.Continent.Countries;
+        }
     }
 }
