@@ -44,7 +44,7 @@ public class WorldMapController : ControllerBase
             //Randomness and "limit" logic here.
             Random random = new Random();
             var countriesToReturn = new CountriesCollectionDTO();
-            countriesToReturn.Countries=result.OrderBy(x => random.Next()).Take(limit).ToList();
+            countriesToReturn.Countries=result.OrderBy(x => random.Next()).Take(limit).OrderBy(x => x.Name).ToList();
             return Ok(countriesToReturn);
         }
         else
