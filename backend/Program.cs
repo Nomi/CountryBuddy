@@ -16,8 +16,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// using (var configuration = new)
-app.UseHttpsRedirection();
+var config = app.Services.GetService<IConfiguration>(); //For reading appsettings
+if(config.GetValue<bool>("EnableHttpsRedirection", true))
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
 
