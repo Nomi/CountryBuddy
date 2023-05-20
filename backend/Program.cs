@@ -36,6 +36,12 @@ if(config.GetValue<bool>("EnableHttpsRedirection", true))
 
 app.UseAuthorization();
 
+app.UseRouting();
+
 app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 app.Run();
