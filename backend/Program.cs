@@ -38,6 +38,8 @@ app.UseAuthorization();
 
 app.UseRouting();
 
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 app.MapControllers();
 app.UseEndpoints(endpoints =>
 {
