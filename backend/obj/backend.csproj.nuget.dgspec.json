@@ -45,6 +45,34 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Client.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Client.Abstractions.Websocket": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Client.LocalExecution": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Client.Serializer.SystemTextJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "GraphQL.Primitives": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -56,6 +84,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "modernhttpclient": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [

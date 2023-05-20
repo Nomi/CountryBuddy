@@ -31,3 +31,16 @@ D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\obj\Debug\net7.0\r
 D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\obj\Debug\net7.0\backend.pdb
 D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\obj\Debug\net7.0\ref\backend.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQLParser.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.Abstractions.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.Abstractions.Websocket.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.LocalExecution.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.Serializer.Newtonsoft.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Client.Serializer.SystemTextJson.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.MicrosoftDI.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\GraphQL.Primitives.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\ModernHttpClient.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Freeport Metrics Technical Assessment\CountryBuddy\backend\bin\Debug\net7.0\System.Reactive.dll
