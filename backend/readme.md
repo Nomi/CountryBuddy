@@ -19,10 +19,10 @@ The following are non-standard configuration options I have added to the appsett
 ## Building and running
 
 1. Clone the repository:
-
    ```console
-   git clone https://github.com/CountryBuddy/project-name.git
+   git clone https://github.com/Nomi/CountryBuddy.git
    ```
+   
 2. Navigate to the backend directory:
     ```console
     cd **INSERT-PATH-TO-backend-FOLDER-HERE**
