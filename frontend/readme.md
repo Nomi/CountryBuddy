@@ -3,21 +3,25 @@ The frontend for CountryBuddy - a webapplication used to fetch continents and th
 
 ## Prerequisites:
 -   [Node.js (includes npm)](https://nodejs.org/en/download)
-## Instructions on how to run (development build):
 
-1. Go to the frontend directory using the terminal.
+## Instructions on how to run (development build):
+1. Clone the repository if you haven't already.
    ```console
-        cd **INSERT-frontend-FOLDER-PATH**
+   git clone https://github.com/Nomi/CountryBuddy.git
    ```
-2. Install all the dependencies / required packages.
+3. Go to the frontend directory using the terminal.
    ```console
-       npm install
+   cd **INSERT-frontend-FOLDER-PATH**
    ```
-3. Run the app.
+3. Install all the dependencies / required packages.
    ```console
-       npm start
+   npm install
    ```
-4. Access the app via a webbrowser at [http://localhost:3000](http://localhost:3000). *(You can confirm the port from the console output of the app)*.
+4. Run the app.
+   ```console
+   npm start
+   ```
+5. Access the app via a webbrowser at [http://localhost:3000](http://localhost:3000). *(You can confirm the port from the console output of the app)*.
 
 **Note**: The development build is not optimized. To create a production build, use ```npm run build```.
 
