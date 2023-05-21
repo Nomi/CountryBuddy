@@ -1,5 +1,8 @@
 namespace backend.Models;
 
+/// <summary>
+/// "Model" class for representation of a Country.
+/// </summary>
 public class Country
 {
     public String Code {get;set;}

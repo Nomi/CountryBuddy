@@ -1,5 +1,8 @@
 namespace backend.Models;
 
+/// <summary>
+/// "Model" class for representation of a Continent (excluding its countries).
+/// </summary>
 public class Continent
 {
     public String Code {get;set;}
