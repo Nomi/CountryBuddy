@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# CountryBuddy Frontend
+The frontend for CountryBuddy - a webapplication used to fetch continents and their countries. Use alongside the backend.
+
+## Prerequisites:
+-   [Node.js (includes npm)](https://nodejs.org/en/download)
+## Instructions on how to run (in development environment):
+
+1. Go to the frontend directory using the terminal.
+        ```console
+            cd **INSERT-frontend-FOLDER-PATH**
+        ```
+2. Install all the required packages.
+        ```console
+            npm install
+        ```
+3. Run the app.
+        ```console
+            npm start
+        ```
+4. Access the app via a webbrowser at [http://localhost:3000](http://localhost:3000). (You can confirm the port from the console output of the app).
+
+**Note**: The development build is not optimized. To create a production build, use "*npm run build*".
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +89,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
