@@ -5,7 +5,7 @@ A RESTful API that serves as a limited wrapper to a [GraphQL API](https://studio
 https://petstore.swagger.io/?url=https://raw.githubusercontent.com/Nomi/CountryBuddy/develop/API-Specification.yml
 
 ## Prerequisites
-- .NET Core SDK [Install .NET Core](https://dotnet.microsoft.com/download) [Tested on version 7.0.100 (.NET 7, but should also work on .NET 6)]
+- .NET Core SDK [Install .NET Core](https://dotnet.microsoft.com/download) [*Tested on version 7.0.100 (.NET 7, but should also work on .NET 6)*]
 
 ## Configuration
 The project uses a configuration file named appsettings.json. If you need to make any changes, try checking there to see if the required options are present in it.
